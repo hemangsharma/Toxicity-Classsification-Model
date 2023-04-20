@@ -1,7 +1,7 @@
 # Toxicity Classsification Model
 
 ## 1. Problem Objective:
-Online harassment and hate speech have become significant problems in the digital age, and there is a pressing need for automated tools that can detect and mitigate abusive behaviour. We are building a model that recognises toxicity and minimises bias with respect to mentions of identities. We will be using dataset labeled for identity mentions and optimising a metric designed to measure unintended bias. The reason for choosing this project is to create a tool that could help moderators in identifying and removing such comments, improve online discourse and create a safer environment for people to engage in online conversations.<br>
+Online harassment and hate speech have become significant problems in the digital age, and there is a pressing need for automated tools that can detect and mitigate abusive behaviour. We are building a model that recognises toxicity and minimises bias with respect to mentions of identities. We will be using dataset labeled for identity mentions and optimising a metric designed to measure unintended bias. The reason for choosing this project is to create a tool that could help moderators in identifying and removing such comments, improve online discourse and create a safer environment for people to engage in online conversations.<br><br>
 This project can contribute to creating a safer online environment by automating the process of identifying toxic comments and flagging them for human review. Additionally, the model could be further developed to handle various types of content in different languages, making it useful for a wide range of applications and conversations.
 
 **Problem Statement:** Given a comment made by the user, predict the toxicity of the comment.
@@ -11,6 +11,7 @@ This project can contribute to creating a safer online environment by automating
 ### 2.1 Data: 
 
 - Source: https://drive.google.com/drive/folders/1WMY6VMZ81LD2oblBI1MVtAup4M2I8xX7?usp=share_link
+<br><i>(Due to large size of csv files, we have to use external resource to host them)</i><br><br>
 - We have one single csv file for training and one cvs file to test.
 - Columns in train data:
 	- Comment_text: This is the data in string format which we have to use to find the toxicity.
@@ -67,9 +68,9 @@ For our training and evaluation we will use the MSE(Mean Squared Error).
 
 ## Team Members
 
-- Hemang Sharma (UTS ID: 24695785)
-- Nusrat Zahan (UTS ID: 14367472)
-- Rajveer Singh Saini (UTS ID: 14368005)
+- <a href="https://canvas.uts.edu.au/groups/157259/users/165789">Hemang Sharma (UTS ID: 24695785)</a>
+- <a href="https://canvas.uts.edu.au/groups/157259/users/132836">Nusrat Zahan (UTS ID: 14367472)</a>
+- <a href="https://canvas.uts.edu.au/groups/157259/users/132900">Rajveer Singh Saini (UTS ID: 14368005)</a>
 
 ## Refrences 
 1. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
