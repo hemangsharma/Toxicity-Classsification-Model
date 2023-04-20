@@ -10,7 +10,7 @@ This project can contribute to creating a safer online environment by automating
 
 ### 2.1 Data: 
 
-- Source: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
+- Source: https://drive.google.com/drive/folders/1WMY6VMZ81LD2oblBI1MVtAup4M2I8xX7?usp=share_link
 - We have one single csv file for training and one cvs file to test.
 - Columns in train data:
 	- Comment_text: This is the data in string format which we have to use to find the toxicity.
