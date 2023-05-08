@@ -68,7 +68,7 @@ For our training and evaluation we will use the MSE(Mean Squared Error).
 
 ## Team Members
 
-- <a href="https://canvas.uts.edu.au/groups/157259/users/165789">Hemang Sharma (UTS ID: 24695785)</a>
+- <a href="https://sharmahemang.com/">Hemang Sharma (UTS ID: 24695785)</a>
 - <a href="https://canvas.uts.edu.au/groups/157259/users/132836">Nusrat Zahan (UTS ID: 14367472)</a>
 - <a href="https://canvas.uts.edu.au/groups/157259/users/132900">Rajveer Singh Saini (UTS ID: 14368005)</a>
 
