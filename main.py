@@ -980,14 +980,21 @@ callbacks_list = [checkpoint]
 history = model.fit(lstm_train, y_train, epochs=5, batch_size=2048, validation_data=(lstm_cv, y_cv), verbose = 1, callbacks=callbacks_list)
 
 # %%
+model.save('model.h5')
+
+# %%
 # Loss Curves
 plt.figure(figsize=[8,6])
 plt.plot(history.history['loss'],'r',linewidth=3.0)
 plt.plot(history.history['val_loss'],'b',linewidth=3.0)
 plt.legend(['Training loss', 'Validation Loss'],fontsize=18)
-plt.xlabel('Epochs ',fontsize=16)
+plt.xlabel('Epochs ',fontsize=16) 
 plt.ylabel('Loss',fontsize=16)
 plt.title('Loss Curves',fontsize=16)
+
+# %%
+#inorder to load the model, just un-comment the following line
+#model = keras.models.load_model('model.h5')
 
 # %% [markdown]
 # <br><br><br><br>
